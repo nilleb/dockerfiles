@@ -1,0 +1,2 @@
+:: docker run -d --name sonarqubeWithProxy -p 9000:9000 -p 9092:9092 nilleb/sonarqube-for-windows -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=8080
+docker run -d --name sonarqubePerso -p 9000:9000 nilleb/sonarqube-plugins -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=8080
